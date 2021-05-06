@@ -139,6 +139,10 @@ const controlUploadRecipe = async function (newRecipe) {
   }
 };
 
+const newFeature = function () {
+  console.log('welcome to app');
+};
+
 const init = function () {
   // BOOKMARKS VIEW HANDLER
   bookMarkView.addHandlerRender(controllBookMark);
@@ -160,5 +164,8 @@ const init = function () {
 
   // UPLOAD RECIPE
   addRecipeView.addHandlerUpload(controlUploadRecipe);
+
+  //
+  newFeature();
 };
 init();
