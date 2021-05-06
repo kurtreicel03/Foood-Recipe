@@ -140,7 +140,7 @@ const controlUploadRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('welcome to app');
+  console.log('welcome to application ');
 };
 
 const init = function () {
